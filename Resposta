@@ -1,0 +1,21 @@
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.Serialization;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite un Valor:");
+            int valor = int.Parse(Console.ReadLine());
+            Console.ReadKey();
+        }
+        static int f(int i,)
+        {
+            return ((i <= 1) ? 1 : (i * f(i - 1)));
+        }
+            
+    }
+}
